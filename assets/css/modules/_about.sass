@@ -81,10 +81,15 @@
         fill: $white
         transition: left .2s ease-in-out
 
-    img
+    video
       position: absolute
       bottom: -90px
       right: -12px
+      width: auto
+      height: 100%
+      object-fit: cover
+
+      
 
   &--options
     display: flex
@@ -154,7 +159,7 @@
           top: 163px
           left: 163px
 
-      img
+      video
         width: 315px
 
 @media (max-width: 600px)
@@ -182,7 +187,7 @@
           top: 205px
           left: 205px
 
-      img
+      video
         display: none
 
     &--options
